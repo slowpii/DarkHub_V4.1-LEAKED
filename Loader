@@ -5,7 +5,6 @@ local games = {
     [{3233893879}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Bad-Business", -- Bad Business
     [{621129760}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/KAT", -- Knife Ability Test (KAT)
     [{7991339063, 8888615802}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Rainbow-Friends", -- Rainbow Friends
-    [{6403373529}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Slap_Battles", -- Slap Battles
     [{2377868063}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Strucid", -- Strucid
 }
 
