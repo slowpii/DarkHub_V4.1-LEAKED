@@ -1,3 +1,17 @@
+-- The Supported Games Are Listed Below --
+
 local games = {
-    [{286090429}] = "",
+    [{286090429}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Arsenal", -- Arsenal
+    [{3233893879}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Bad-Business", -- Bad Business
+    [{3527629287}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Big-Paintball", -- Big Paintball
+    [{621129760}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/KAT", -- Knife Ability Test (KAT)
+    [{7991339063, 8888615802}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Rainbow-Friends", -- Rainbow Friends
+    [{6403373529}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Slap_Battles", -- Slap Battles
+    [{2377868063}] = "https://raw.githubusercontent.com/slowpii/DarkHub_V4.1-LEAKED/main/Strucid", -- Strucid
 }
+
+for ids, url in next, games do
+    if table.find(ids, game.PlaceId) then
+        loadstring(game:HttpGet(url))(); break
+    end
+end
